@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assortments",
+  "info": {
+    "singularName": "assortment",
+    "pluralName": "assortments",
+    "displayName": "assortment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foodType": {
+      "type": "string"
+    }
+  }
+}

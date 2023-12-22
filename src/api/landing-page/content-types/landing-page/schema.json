@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "landingPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topContainerTitle": {
+      "type": "string"
+    },
+    "topContainerSubTitle": {
+      "type": "string"
+    },
+    "topContainerBtnText": {
+      "type": "string"
+    },
+    "menuTitle": {
+      "type": "string"
+    },
+    "showAllText": {
+      "type": "string"
+    },
+    "aboutUsTitle": {
+      "type": "string"
+    },
+    "aboutUsContent": {
+      "type": "string"
+    },
+    "orderTableTitle": {
+      "type": "string"
+    },
+    "formHelperText": {
+      "type": "string"
+    },
+    "orderBtnText": {
+      "type": "string"
+    },
+    "footerStreetAdress": {
+      "type": "string"
+    },
+    "footerNumber": {
+      "type": "string"
+    },
+    "footerMail": {
+      "type": "string"
+    },
+    "navbarMenu": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::menu.menu"
+    },
+    "menus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::menu.menu"
+    },
+    "assortments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::assortment.assortment"
+    }
+  }
+}

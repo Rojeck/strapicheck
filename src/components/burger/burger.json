@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_burger_burgers",
+  "info": {
+    "displayName": "Burger",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "mass": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "burgerImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
